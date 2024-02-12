@@ -18,7 +18,7 @@ public class IntStack {
     private int[] theStack;
 
     /**
-     * Location in theStack array, where next push will insert.
+     * The location in theStack array where next push will insert.
      * 0 means: stack is empty
      */
     private int nextPushLocation; // .
