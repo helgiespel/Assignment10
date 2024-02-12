@@ -9,7 +9,7 @@ public class IntStackTest {
 
     @Test
     public void testNewStackIsNotFull() {
-        IntStack stack= new IntStack();
+        IntStack stack = new IntStack();
 
         assertFalse(stack.isFull());
     }
