@@ -2,6 +2,7 @@ package is.hi.hbv202g.ass5;
 
 public class IntStackMain {
     public static void main(String[] args) {
+        System.out.println("Creating a new stack");
         IntStack myStack = new IntStack();
         System.out.println("isFull=" + myStack.isFull());
         System.out.println("Push: 11");
