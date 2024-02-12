@@ -66,7 +66,7 @@ public class IntStack {
     /**
      * Pops an int from the stack
      * @return the popped int
-     * @throws ArrayIndexOutOfBoundsException if the stack was already empty
+     * @throws ArrayIndexOutOfBoundsException if the stack was already full. (Note that this is an unchecked exception, i.e. you do not need to catch it.) 
      */
     public int pop() throws ArrayIndexOutOfBoundsException {
         return theStack[--nextPushLocation];
