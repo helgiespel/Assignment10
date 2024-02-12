@@ -1,7 +1,9 @@
 # HBV202GAssignment5
 A very simple implementation of a stack for storing integer numbers to be tested using JUnit4.
 
-This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE hopefully understands when you `git clone` it. The provided Maven POM includes the JUnit4 dependency.
+This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE hopefully understands when you `git clone` it. The provided Maven POM includes the JUnit4 dependency. 
+
+**Note that the POM includes version 4.11 of JUnit 4 which has a vulnerability:** while the vulnerable rule (see https://www.cve.org/CVERecord?id=CVE-2020-15250) is not used, it is part of the assignment to **update the version to 4.13.2**.
 
 Both the implementation and the tests are in Java package `is.hi.hbv202g.ass5`, 
 but in the usual separate Maven `src` directories:
