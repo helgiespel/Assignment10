@@ -18,6 +18,5 @@ but in the usual separate Maven `src` directories:
 Maven:
 
 - `mvn compile` compiles all implementation classes.
-- `mvn exec:java` executes the main method of the implementation.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, `Tests`, or `TestCase`).
 
