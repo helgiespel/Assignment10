@@ -1,4 +1,4 @@
-# HBV202GAssignment5
+# HBV202GAssignment10
 A very simple implementation of a stack for storing integer numbers to be tested using JUnit4.
 
 This project is a Maven project, i.e. it uses the standard Maven project structure that your IDE hopefully understands when you `git clone` it. The provided Maven POM includes the JUnit4 dependency. The POM sets the Java version to 17: you may need to downgrade it if you use an older JDK.
@@ -15,8 +15,15 @@ but in the usual separate Maven `src` directories:
 - `src/test/java`:
   - `IntStackTest.java`: A skeleton for a class containing JUnit4 test cases for the `IntStack` class, containing one sample test case.
 
-Maven:
+## Compiling and testing with Maven
 
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, `Tests`, or `TestCase` -- in our case, this will match `IntStackTest`).
 
+## Generating Documentation with Maven
+
+- `mvn site` generates the full Maven site with Javadoc.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
