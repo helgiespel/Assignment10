@@ -1,0 +1,7 @@
+<project>
+    <body>
+        <menu name="Project Documentation">
+            <item name="Overview" href="index.html"/>
+        </menu>
+    </body>
+</project>
